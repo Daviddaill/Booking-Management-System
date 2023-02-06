@@ -1,0 +1,52 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package project;
+import java.io.File;
+import java.sql.*;
+import javax.swing.JOptionPane;
+/**
+ *
+ * @author daviddaillere
+ */
+public class InsertUpdateDelete {
+    public static void setData(String database, String Query, String msg){
+        Connection con= null;
+        Statement st= null;
+        try{
+        String home = System.getProperty("user.home");
+        home= home + File.separator + "Documents" + File.separator + "Gérer Mon Gite"+File.separator + "Base de Donnée"+ File.separator+database;
+        String url = "jdbc:h2:"+home;
+           con= DriverManager.getConnection(url, "", "");
+           st= con.createStatement();
+           st.executeUpdate(Query);
+           if( ! msg.equals("")){
+               JOptionPane.showMessageDialog(null, msg);
+           }
+          st.close();
+          con.close(); 
+        }
+        catch(Exception e){
+            JOptionPane.showMessageDialog(null, e);
+        }
+        finally{
+           try{
+               
+            
+        }
+        catch(Exception e){
+            
+        } 
+        }
+        
+    }
+    
+    public static void importClient(String dataBase){
+        
+    }
+    
+}
+
+
+

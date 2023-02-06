@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=docGenerator
+comment0.text=\n\ Write\ a\ description\ of\ writeContract\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=name\ firstName
+comment1.target=docGenerator(java.lang.String,\ java.lang.String)
+comment2.params=w
+comment2.target=java.lang.String\ processWord(java.lang.String)
+comment3.params=
+comment3.target=java.lang.String\ generateWords()
+comment4.params=
+comment4.target=java.lang.String\ createContract()
+comment5.params=
+comment5.target=void\ printContract()
+comment6.params=
+comment6.target=void\ printAddress()
+numComments=7

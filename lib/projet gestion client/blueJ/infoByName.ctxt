@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=infoByName
+comment0.text=\n\ Write\ a\ description\ of\ infoByName\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=name\ firstName
+comment1.target=infoByName(java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=void\ getClientInfo()
+comment3.params=
+comment3.target=void\ getClientBookings()
+comment4.params=
+comment4.target=void\ getAdresse()
+comment5.params=
+comment5.target=void\ getContract()
+numComments=6

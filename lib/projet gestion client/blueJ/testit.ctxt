@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=testit
+comment1.params=name\ firstName
+comment1.target=testit(java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=void\ getClientInfo()
+comment3.params=
+comment3.target=void\ getClientBookings()
+comment4.params=
+comment4.target=void\ getAdresse()
+comment5.params=
+comment5.target=void\ getContract()
+comment6.params=
+comment6.target=void\ testFindClient()
+numComments=7
